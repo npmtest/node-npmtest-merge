@@ -1,7 +1,10 @@
-# test coverage for  [merge (v1.2.0)](https://github.com/yeikos/js.merge)  [![npm package](https://img.shields.io/npm/v/npmtest-merge.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-merge) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-merge.svg)](https://travis-ci.org/npmtest/node-npmtest-merge)
+# npmtest-merge
+
+#### test coverage for  [merge (v1.2.0)](https://github.com/yeikos/js.merge)  [![npm package](https://img.shields.io/npm/v/npmtest-merge.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-merge) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-merge.svg)](https://travis-ci.org/npmtest/node-npmtest-merge)
+
 #### Merge multiple objects into one, optionally creating a new cloned object. Similar to the jQuery.extend but more flexible. Works in Node.js and the browser.
 
-[![NPM](https://nodei.co/npm/merge.png?downloads=true)](https://www.npmjs.com/package/merge)
+[![NPM](https://nodei.co/npm/merge.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/merge)
 
 | git-branch : | [alpha](https://github.com/npmtest/node-npmtest-merge/tree/alpha)|
 |--:|:--|
@@ -9,11 +12,17 @@
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-merge/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-merge/build/test-report.html)|
 | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-merge/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-merge/tree/gh-pages/build)|
 
-[![istanbul-coverage](https://npmtest.github.io/node-npmtest-merge/build/screenCapture.buildCustomOrg.browser.coverage.html.png)](https://npmtest.github.io/node-npmtest-merge/build/coverage.html/index.html)
+- [https://npmtest.github.io/node-npmtest-merge/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-merge/build/coverage.html/index.html)
 
-[![test-report](https://npmtest.github.io/node-npmtest-merge/build/screenCapture.buildCustomOrg.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmtest%252Fnode-npmtest-merge%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-merge/build/test-report.html)
+[![istanbul-coverage](https://npmtest.github.io/node-npmtest-merge/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fcoverage.lib.html.png)](https://npmtest.github.io/node-npmtest-merge/build/coverage.html/index.html)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-merge/build/screenCapture.buildApidoc.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmdoc%252Fnode-npmdoc-merge%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-merge/build/apidoc.html)
+- [https://npmtest.github.io/node-npmtest-merge/build/test-report.html](https://npmtest.github.io/node-npmtest-merge/build/test-report.html)
+
+[![test-report](https://npmtest.github.io/node-npmtest-merge/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-merge/build/test-report.html)
+
+- [https://npmdoc.github.io/node-npmdoc-merge/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-merge/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-merge/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-merge/build/apidoc.html)
 
 ![npmPackageListing](https://npmtest.github.io/node-npmtest-merge/build/screenCapture.npmPackageListing.svg)
 
@@ -55,13 +64,11 @@
     "main": "merge.js",
     "maintainers": [
         {
-            "name": "yeikos",
-            "email": "yeikos@gmail.com"
+            "name": "yeikos"
         }
     ],
     "name": "merge",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/yeikos/js.merge.git"
