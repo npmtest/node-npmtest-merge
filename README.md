@@ -1,6 +1,6 @@
 # npmtest-merge
 
-#### test coverage for  [merge (v1.2.0)](https://github.com/yeikos/js.merge)  [![npm package](https://img.shields.io/npm/v/npmtest-merge.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-merge) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-merge.svg)](https://travis-ci.org/npmtest/node-npmtest-merge)
+#### basic test coverage for  [merge (v1.2.0)](https://github.com/yeikos/js.merge)  [![npm package](https://img.shields.io/npm/v/npmtest-merge.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-merge) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-merge.svg)](https://travis-ci.org/npmtest/node-npmtest-merge)
 
 #### Merge multiple objects into one, optionally creating a new cloned object. Similar to the jQuery.extend but more flexible. Works in Node.js and the browser.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-merge/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-merge/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-merge/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-merge/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-merge/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-merge/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-merge/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-merge/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-merge/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-merge/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-merge/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-merge/build/coverage.html/index.html)
 
@@ -76,7 +76,8 @@
     "scripts": {
         "test": "cd tests; node index.js"
     },
-    "version": "1.2.0"
+    "version": "1.2.0",
+    "bin": {}
 }
 ```
 
